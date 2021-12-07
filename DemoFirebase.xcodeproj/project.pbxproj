@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7894269B864D2307E2B07D7E /* Pods_DemoFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBF6C69090601B9F949A3AC /* Pods_DemoFirebase.framework */; };
+		8C223A92452889FE4FD8F885 /* libPods-DemoFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D8FE4E3A6BB898552FF001 /* libPods-DemoFirebase.a */; };
 		B5AED6D427595A5400DB4973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AED6D327595A5400DB4973 /* AppDelegate.swift */; };
 		B5AED6D627595A5400DB4973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AED6D527595A5400DB4973 /* SceneDelegate.swift */; };
 		B5AED6D827595A5400DB4973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AED6D727595A5400DB4973 /* ViewController.swift */; };
@@ -19,8 +19,8 @@
 
 /* Begin PBXFileReference section */
 		101E59B9187660AA02D35F4C /* Pods-DemoFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoFirebase.debug.xcconfig"; path = "Target Support Files/Pods-DemoFirebase/Pods-DemoFirebase.debug.xcconfig"; sourceTree = "<group>"; };
-		2FBF6C69090601B9F949A3AC /* Pods_DemoFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F58E349AA1CD0B395D64D1 /* Pods-DemoFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoFirebase.release.xcconfig"; path = "Target Support Files/Pods-DemoFirebase/Pods-DemoFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		A1D8FE4E3A6BB898552FF001 /* libPods-DemoFirebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoFirebase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AED6D027595A5400DB4973 /* DemoFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AED6D327595A5400DB4973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5AED6D527595A5400DB4973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7894269B864D2307E2B07D7E /* Pods_DemoFirebase.framework in Frameworks */,
+				8C223A92452889FE4FD8F885 /* libPods-DemoFirebase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 		EE6AC05D86AD5315C4C13249 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2FBF6C69090601B9F949A3AC /* Pods_DemoFirebase.framework */,
+				A1D8FE4E3A6BB898552FF001 /* libPods-DemoFirebase.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,7 +106,6 @@
 				B5AED6CC27595A5400DB4973 /* Sources */,
 				B5AED6CD27595A5400DB4973 /* Frameworks */,
 				B5AED6CE27595A5400DB4973 /* Resources */,
-				5BF34D261186F2B293DBCB6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,23 +164,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5BF34D261186F2B293DBCB6F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoFirebase/Pods-DemoFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoFirebase/Pods-DemoFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoFirebase/Pods-DemoFirebase-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B09AF07768A246BF0A8E7B66 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
